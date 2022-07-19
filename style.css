@@ -232,14 +232,23 @@ form input[type="submit"] {
   margin-top: 100px;
   margin-bottom: 120px;
 }
+.service-icon-container {
+  height: 100px;
+  width: 100px;
+  background-color: #772d8b;
+  margin: auto;
+  margin-top: 23px;
+  margin-bottom: 70px;
+}
 .service-icon {
   background-color: #772d8b;
-  margin-top: 23px;
-  margin-bottom: 73px;
+  margin-top: 15px;
+  width: 70px;
+  height: 70px;
 }
 .services-child-container {
   width: 271px;
-  height: 340px;
+  height: 377px;
   background: #ffffff;
   box-shadow: 2px 4px 26px rgba(0, 0, 0, 0.07);
   text-align: center;
@@ -344,6 +353,7 @@ form input[type="submit"] {
   text-align: center;
   background: #ffffff;
   box-shadow: 13px 24px 44px rgba(0, 0, 0, 0.07);
+  margin-right: 80px;
 }
 
 .client img {
