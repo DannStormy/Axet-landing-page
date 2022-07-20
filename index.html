@@ -5,36 +5,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/Axet/style.css">
+    <link rel="stylesheet" href="/style.css">
     <title>Axet</title>
 </head>
 
 <body>
     <header>
         <ul class="left">
-            <li><img src="/Axet/assets/icons/facebook-icon.svg" alt="facebook icon"></li>
-            <li><img class="twitter" src="/Axet/assets/icons/twitter-brands 1 (1).svg" alt="twitter icon"></li>
-            <li><img src="/Axet/assets/icons/linkedin.svg" alt="linkedin icon"></li>
+            <li><img src="/assets/icons/facebook-icon.svg" alt="facebook icon"></li>
+            <li><img class="twitter" src="/assets/icons/twitter-brands 1 (1).svg" alt="twitter icon"></li>
+            <li><img src="/assets/icons/linkedin.svg" alt="linkedin icon"></li>
         </ul>
         <ul>
             <li><span class="join">Join our team. Are you ready to change the game?</span>
                 <span class="find">Find out more</span>
             </li>
-            <li class="arrow-right"><img src="/Axet/assets/icons/mdi_arrow_right_alt.svg" alt="arrow right">
+            <li class="arrow-right"><img src="/assets/icons/mdi_arrow_right_alt.svg" alt="arrow right">
                 </span></li>
         </ul>
     </header>
     <section class="nav-container">
-        <img class="top-img" src="/Axet/assets/images/background.png" alt="picture of a heavy equipment">
+        <img class="top-img" src="/assets/images/background.png" alt="picture of a heavy equipment">
         <nav class="nav">
             <ul>
-                <li><img class="logo" src="/Axet/assets/icons/IMG-20190920-WA0006 1 1.svg" alt="company logo">
+                <li><img class="logo" src="/assets/icons/IMG-20190920-WA0006 1 1.svg" alt="company logo">
                 </li>
                 <li class="need-help">Need I help? Talk to an Expert<br><br><span class="call-expert">+1 910 730
                         09</span>
                 </li>
             </ul>
-            <ul>
+            <ul class="nav-items-right">
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">News</a></li>
@@ -57,7 +57,7 @@
             <p class="form-footer">Don't have an account? <span><a href="#">Signup</a></span></p>
         </form>
     </section>
-    <section class="about">
+    <!-- <section class="about">
         <div class="about-left">
             <p class="title">ABOUT AXET</p>
             <p class="sub-title">Who we are</p>
@@ -72,8 +72,8 @@
                 a type specimen
                 book.</p>
         </div>
-        <img src="/Axet/assets/images/Group 1.png" alt="construction image">
-    </section>
+        <img src="/assets/images/Group 1.png" alt="construction image">
+    </section> -->
     <section class="services">
         <p class="title">SERVICES WE PROVIDE</p>
         <p class="sub-title">Our Services</p>
@@ -81,7 +81,7 @@
     <section class="services-container">
         <div class="services-child-container">
             <div class="service-icon-container">
-                <img class="service-icon" src="/Axet/assets/icons/mdi_contact_support.svg" alt="contact-support">
+                <img class="service-icon" src="/assets/icons/mdi_contact_support.svg" alt="contact-support">
             </div>
             <p class="service-title">24/7 Support</p>
             <p class="service-paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -90,7 +90,7 @@
         </div>
         <div class="services-child-container">
             <div class="service-icon-container">
-                <img class="service-icon" src="/Axet/assets/icons/mdi_business.svg" alt="mdi_business">
+                <img class="service-icon" src="/assets/icons/mdi_business.svg" alt="mdi_business">
             </div>
             <p class="service-title">Construction Materials</p>
             <p class="service-paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -99,7 +99,7 @@
         </div>
         <div class="services-child-container">
             <div class="service-icon-container">
-                <img class="service-icon" src="/Axet/assets/icons/mdi_directions_transit.svg" alt="mdi_broken_image">
+                <img class="service-icon" src="/assets/icons/mdi_directions_transit.svg" alt="mdi_broken_image">
             </div>
             <p class="service-title">Crane Machines</p>
             <p class="service-paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -108,7 +108,7 @@
         </div>
         <div class="services-child-container">
             <div class="service-icon-container">
-                <img class="service-icon" src="/Axet/assets/icons/mdi_broken_image.svg" alt="mdi_broken_image">
+                <img class="service-icon" src="/assets/icons/mdi_broken_image.svg" alt="mdi_broken_image">
             </div>
             <p class="service-title">Crushing Operations</p>
             <p class="service-paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -117,7 +117,7 @@
         </div>
     </section>
     <section class="hit-container">
-        <img src="/Axet/assets/images/work-flow.png" alt="work-flow image" width="100%">
+        <!-- <img src="/assets/images/work-flow.png" alt="work-flow image" width="100%"> -->
         <div class="hit-sub-container">
             <div class="hit">
                 <p class="work-flow">WORK FLOW</p>
@@ -125,24 +125,36 @@
             </div>
             <div class="hit-parent-container">
                 <div class="hit-child-container">
-                    <img class="hit-icons" src="/Axet/assets/icons/mdi_pin_drop.svg" alt="mdi_pin_drop">
-                    <p class="hit-title">Pick Destination</p>
-                    <p class="hit-paragraph">A small river named Duden flows by their place and supplies it with you</p>
+                    <img class="hit-icons" src="/assets/icons/mdi_pin_drop.svg" alt="mdi_pin_drop">
+                    <div class="child-flex">
+                        <p class="hit-title">Pick Destination</p>
+                        <p class="hit-paragraph">A small river named Duden flows by their place and supplies it with you
+                        </p>
+                    </div>
                 </div>
                 <div class="hit-child-container">
-                    <img class="hit-icons" src="/Axet/assets/icons/mdi_check_box.svg" alt="mdi_check_box">
-                    <p class="hit-title">Select Term</p>
-                    <p class="hit-paragraph">A small river named Duden flows by their place and supplies it with you</p>
+                    <img class="hit-icons" src="/assets/icons/mdi_check_box.svg" alt="mdi_check_box">
+                    <div class="child-flex">
+                        <p class="hit-title">Select Term</p>
+                        <p class="hit-paragraph">A small river named Duden flows by their place and supplies it with you
+                        </p>
+                    </div>
                 </div>
                 <div class="hit-child-container">
-                    <img class="hit-icons" src="/Axet/assets/icons/mdi_commute.svg" alt="mdi_commute">
-                    <p class="hit-title">Choose an Equipment</p>
-                    <p class="hit-paragraph">A small river named Duden flows by their place and supplies it with you</p>
+                    <img class="hit-icons" src="/assets/icons/mdi_commute.svg" alt="mdi_commute">
+                    <div class="child-flex">
+                        <p class="hit-title">Choose an Equipment</p>
+                        <p class="hit-paragraph">A small river named Duden flows by their place and supplies it with you
+                        </p>
+                    </div>
                 </div>
                 <div class="hit-child-container">
-                    <img class="hit-icons" src="/Axet/assets/icons/mdi_credit_card.svg" alt="mdi_credit_card">
-                    <p class="hit-title">Pay</p>
-                    <p class="hit-paragraph">A small river named Duden flows by their place and supplies it with you</p>
+                    <img class="hit-icons" src="/assets/icons/mdi_credit_card.svg" alt="mdi_credit_card">
+                    <div class="child-flex">
+                        <p class="hit-title">Pay</p>
+                        <p class="hit-paragraph">A small river named Duden flows by their place and supplies it with you
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -154,17 +166,17 @@
         </div>
         <div class="client-container">
             <div class="client">
-                <img src="/Axet/assets/images/client-1.png" alt="">
+                <img src="/assets/images/client-1.png" alt="">
                 <p>Far far away, behind the word mountains, far from the countries Vokalia and
                     Consonantia, there live the blind texts.</p>
             </div>
             <div class="client">
-                <img src="/Axet/assets/images/client-2.png" alt="">
+                <img src="/assets/images/client-2.png" alt="">
                 <p>Far far away, behind the word mountains, far from the countries Vokalia and
                     Consonantia, there live the blind texts.</p>
             </div>
             <div class="client">
-                <img src="/Axet/assets/images/client-3.png" alt="">
+                <img src="/assets/images/client-3.png" alt="">
                 <p>Far far away, behind the word mountains, far from the countries Vokalia and
                     Consonantia, there live the blind texts.</p>
             </div>
@@ -175,7 +187,7 @@
             <p class="news-title">From the News</p>
             <p class="news-subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
         </div>
-        <img src="/Axet/assets/images/image 1.png" alt="people-working" width="100%">
+        <img src="/assets/images/image 1.png" alt="people-working" width="100%">
         <div class="news-container">
             <div class="news">
                 <p class="news-intro">Find best Construction materials</p>
@@ -198,11 +210,11 @@
         </div>
     </section>
     <section class="video">
-        <img src="/Axet/assets/images/truck.png" alt="truck image" width="100%">
+        <img src="/assets/images/truck.png" alt="truck image" width="100%">
     </section>
     <section class="all-clients">
         <p class="ac-title">Our Clients</p>
-        <img src="/Axet/assets/icons/clients-list.svg" alt="clients-list" width="100%">
+        <img src="/assets/icons/clients-list.svg" alt="clients-list" width="100%">
     </section>
     <section class="summary">
         <section class="e-summary">
@@ -220,12 +232,22 @@
                 <li>Contact Us</li>
             </ul>
         </section>
+
         <section class="e-summary">
             <p class="summary-title">Contact Info</p>
             <ul class="summary-list">
-                <li>Address: 679 Grand avenu, Central Parl,<br> NYC, NY</li>
-                <li>Custom Support & Sale: +1-5050-607080</li>
-                <li>mail: contact@axet.com</li>
+                <div class="summary-icon">
+                    <img src="/assets/images/mdi_location_on.png" alt="">
+                    <li>Address: 679 Grand avenu, Central Parl, NYC, NY</li>
+                </div>
+                <div class="summary-icon">
+                    <img src="/assets/images/mdi_smartphone.png" alt="">
+                    <li>Custom Support & Sale: +1-5050-607080</li>
+                </div>
+                <div class="summary-icon">
+                    <img src="/assets/images/mdi_mail.png" alt="">
+                    <li>mail: contact@axet.com</li>
+                </div>
             </ul>
         </section>
         <section class="e-summary">
