@@ -262,6 +262,7 @@ form input[type="submit"] {
   color: #565656;
 }
 .service-paragraph {
+  color: #333333;
   font-weight: 100;
   padding: 15px;
   text-align: left;
@@ -512,25 +513,35 @@ footer p {
   .summary {
     flex-wrap: wrap;
     height: auto;
-    padding: 0;
+    padding: 10px;
     justify-content: center;
+  }
+  .summary li,
+  .summary ul {
+    line-height: 1.5;
   }
   .summary-title {
     margin: 0;
+  }
+  .e-summary ul p {
+    margin-bottom: 10px;
+  }
+  .e-summary ul li {
+    margin-top: 10px;
   }
   .e-summary {
     flex: 50%;
     padding: 10px;
   }
+
   .summary-paragraph {
     width: auto;
+    font-size: 13px;
   }
   .summary img {
-    padding-right: 8px;
     padding-top: 10px;
   }
   .news {
-    width: 80%;
     text-align: center;
     margin: auto;
     margin-bottom: 10px;
@@ -539,7 +550,7 @@ footer p {
     max-width: 100%;
   }
   .news-container button {
-    margin-bottom: 0;
+    margin-bottom: 50px;
   }
   .news-container {
     margin-bottom: 30px;
@@ -562,6 +573,7 @@ footer p {
     display: flex;
     width: 100%;
     justify-content: space-around;
+    gap: 30px;
   }
   .child-flex {
     display: flex;
@@ -575,12 +587,8 @@ footer p {
     text-align: left !important;
     gap: 10px;
   }
-  .join {
-    display: none;
-  }
-  .nav {
-    display: none;
-  }
+  .join,
+  .nav,
   form {
     display: none;
   }
